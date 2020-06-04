@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 [//]: # "Image References"
 
 [image1]: ./images/camera.jpg "Camera Images"
-[image2]: ./examples/augumented.jpg "Augumented"
+[image2]: ./images/augumented.jpg "Augumented"
 
 
 ## Rubric Points
