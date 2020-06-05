@@ -198,3 +198,7 @@ The model loss for 50 epochs has been shown except loss from initial two epochs 
 
 
 
+## Video Output
+
+The final video output is available at [here](./results/vid-nvmodel2.mp4)
+
