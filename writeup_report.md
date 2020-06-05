@@ -150,23 +150,23 @@ I used the default dataset provided by Udacity. I separated the dataset into fol
 * Images from Left Camera
 * Images from Right Camera
 
-Images from Center Camera was first used to create training set and valid set in the ratio of $ 0.8: 0.2 $ 
+Images from Center Camera was first used to create training set and valid set in the ratio of 0.8: 0.2 
 
 I then analyzed the training images (Center Camera Images) in the following three categories:
 
 * Driving mostly straight:
-  * Images with $ -0.15 <= angle <= 0.15 $
+  * Images with -0.15 <= angle <= 0.15 
 * Driving right to left
-  * Image with $  angle < -0.15 $
+  * Image with  angle < -0.15 
 * Driving left to right
-  * Image with $ angle > 0.15 $
+  * Image with angle > 0.15
 
 The training dataset was highly skewed with large number of images with driving straight and less number of images with driving left or right. Since, so far I considered only center camera images, I decided to add additional images from left and right camera.
 
 In order to add images, I sampled few numbers (more than what was required to balance the images) from original dataset and checked the steering angle. Based on the value of steering angle, the image from either left camera or right camera with angle adjustment of 0.2 was added in to training dataset as below:
 
-* Steering angle of less than $ -0.15 $ implies the car is turning towards left, so the image from right camera with angle adjustment was added
-* Steering angle of greater than $ 0.15 $ implies the car is turning towards right, so the image from left camera with angle adjustment was added
+* Steering angle of less than -0.15  implies the car is turning towards left, so the image from right camera with angle adjustment was added
+* Steering angle of greater than 0.15 implies the car is turning towards right, so the image from left camera with angle adjustment was added
 
 Below images shows the histogram of steering angles of the training dataset after adding additional images.  
 
