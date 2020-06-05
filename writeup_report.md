@@ -176,9 +176,9 @@ Below images shows the histogram of steering angles of the training dataset afte
 
 #### Generator
 
-In the generator, I trimmed all images so that top $ 30\% $ and below $10\%$ of image is not considered. After cropping the image, I resized the image to (64, 64, 3).
+In the generator, I trimmed all images so that top  30 %​ and below 10 % of image is not considered. After cropping the image, I resized the image to (64, 64, 3).
 
-For training phase, I generated a random number between $0$ to $3$ and applied one of transformations based on the random number. The set of transformations comprised random rotation in range of $(-15,15)$, brighting image, flipping image, unchanged.
+For training phase, I generated a random number between 0 to 3 and applied one of transformations based on the random number. The set of transformations comprised random rotation in range of (-15,15)​, brighting image, flipping image, unchanged.
 
 Below image represents flipping and rotation on the camera images.
 
