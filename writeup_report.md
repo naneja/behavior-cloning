@@ -198,7 +198,3 @@ The model loss for 50 epochs has been shown except loss from initial two epochs 
 
 
 
-The model used to trained is below:
-
-![][img_model] 
-
