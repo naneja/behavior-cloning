@@ -35,7 +35,7 @@ The goals / steps of this project are the following:
 My project includes the following files:
 * model.ipynb containing the script to create and train the model
 * drive.py for driving the car in autonomous mode
-* link to [model.h5](https://www.dropbox.com/sh/nzaoxry18h7o9ad/AADBDaXi_TntuEyfteIeVcSOa?dl=0) containing a trained convolution neural network 
+* link to [model.h5](https://drive.google.com/file/d/1gLQzJ1vQ0Mb_zRrzNfNT2waxb9I975Pb/view?usp=sharing) containing a trained convolution neural network 
 * writeup_report.md or writeup_report.pdf summarizing the results
 
 #### 2. Submission includes functional code
@@ -200,5 +200,5 @@ The model loss for 50 epochs has been shown except loss from initial two epochs 
 
 ## Video Output
 
-The final video output is available at [here](./results/vid-nvmodel2.mp4)
+The final video output is available at [here](./results/vid-nvmodel2.mp4) and [here](https://www.youtube.com/watch?v=gfJ0cR7j1sM)
 
